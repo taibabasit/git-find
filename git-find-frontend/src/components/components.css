@@ -1,0 +1,30 @@
+.navbar{
+    background: #171717;
+    color: white;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.user-avatar{
+    height:350px;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    /* background: gray; */
+}
+
+.border-right{
+    border-right: 1px solid gray;
+}
+
+.user-stats{
+    background:#F0F0F0;
+}
+
+
+
+.user-info-box{
+    overflow-y: auto;
+    max-height: 200px;
+}

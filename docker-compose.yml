@@ -1,0 +1,10 @@
+version: '1'
+services:
+  backend:
+    image: taibabasit/git-find-backend:latest
+    ports:
+      - "3333:3333"
+  frontend:
+    image: taibabasit/git-find-frontend:latest
+    ports:
+      - "3000:3000"
