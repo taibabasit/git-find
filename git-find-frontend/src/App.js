@@ -26,35 +26,35 @@ function App() {
     console.log(username)
 
     try {
-      await axios.get(Endpoint+"/user",
-      {
-        params: {
-          username: username
-        }
-      }).then((res) => {
-        setUserData(res.data)
-        console.log(res.data)
-      })
+      await axios.get(Endpoint + "/user",
+        {
+          params: {
+            username: username
+          }
+        }).then((res) => {
+          setUserData(res.data)
+          console.log(res.data)
+        })
 
-      await axios.get(Endpoint+"/gist",
-      {
-        params: {
-          username: username
-        }
-      }).then((res) => {
-        setUserGists(res.data)
-        console.log(res.data)
-      })
+      await axios.get(Endpoint + "/gist",
+        {
+          params: {
+            username: username
+          }
+        }).then((res) => {
+          setUserGists(res.data)
+          console.log(res.data)
+        })
 
-      await axios.get(Endpoint+"/organization",
-      {
-        params: {
-          username: username
-        }
-      }).then((res) => {
-        setUserOrganization(res.data)
-        console.log(res.data)
-      })
+      await axios.get(Endpoint + "/organization",
+        {
+          params: {
+            username: username
+          }
+        }).then((res) => {
+          setUserOrganization(res.data)
+          console.log(res.data)
+        })
     }
     catch (e) {
       console.log(e)

@@ -8,4 +8,4 @@ import { GitinfoService } from './gitinfo.service';
   controllers: [GitinfoController],
   providers: [GitinfoService],
 })
-export class GitinfoModule {}
+export class GitinfoModule { }

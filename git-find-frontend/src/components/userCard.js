@@ -3,13 +3,13 @@ import './components.css'
 
 
 const UserCard = (props) => {
-    useEffect(() =>{
+    useEffect(() => {
         // console.log(props)
-    },[props])
+    }, [props])
     return (
         <>
             <div class="card mb-5 shadow rounded">
-                <div className='user-avatar' style={{background:`url(${(props.props.avatar_url)}`}}>
+                <div className='user-avatar' style={{ background: `url(${(props.props.avatar_url)}` }}>
 
                 </div>
                 <div class="card-body">
@@ -25,13 +25,13 @@ const UserCard = (props) => {
                             </div>
                         </div>
                         <div className='col-4 border-right'>
-                        <div className='flex flex-col'>
+                            <div className='flex flex-col'>
                                 <h6>Following</h6>
                                 <p>{props.props.following}</p>
                             </div>
                         </div>
                         <div className='col-4'>
-                        <div className='flex flex-col'>
+                            <div className='flex flex-col'>
                                 <h6>Repos</h6>
                                 <p>{props.props.public_repos}</p>
                             </div>
