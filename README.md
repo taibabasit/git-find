@@ -24,3 +24,6 @@ Frontend is built using React and Bootstrap. Backend is built using NestJS.
     - Run `docker-compose up`
     - Frontend runs on `http://localhost:3000` in your browser
     - Backend runs on `http://localhost:3333` in your browser
+
+### Frontend
+![Screenshot 1](frontend.png)
